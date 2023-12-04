@@ -225,7 +225,3 @@ read_multiple_fxout <- function(multiple_path, visualize = TRUE) {
   return(total_foldx_data_frame)
 }
 
-
-
-# example
-foldx_data_frame = read_fxout("/Users/kami/my_GitHub_Repository/my_R_packages/foldX.reader/foldx_output_example/example.fxout")
