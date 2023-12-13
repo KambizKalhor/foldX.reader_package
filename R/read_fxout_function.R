@@ -93,7 +93,7 @@ save_plot <- function(fig, save_output_path, file_name_png) {
 read_fxout <- function(path) {
 
   # read the input
-  input_string <- readLines(path)
+  input_string <- read_file(path)
 
   # make a vector from input
   data <- input_string |>
