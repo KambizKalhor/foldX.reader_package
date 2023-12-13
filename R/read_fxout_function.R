@@ -71,11 +71,16 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
 }
 
+# Install stringr if not installed
+if (!requireNamespace("stringr", quietly = TRUE)) {
+  install.packages("stringr")
+}
+
 # Load the installed packages
 library(devtools)
 library(tidyverse)
 library(fs)
-
+library(stringr)
 
 ## important functions to save image
 # function to save plots
@@ -93,7 +98,7 @@ save_plot <- function(fig, save_output_path, file_name_png) {
 read_fxout <- function(path) {
 
   # read the input
-  input_string <- readLines(path)
+  input_string <- read_file(path)
 
   # make a vector from input
   data <- input_string |>
