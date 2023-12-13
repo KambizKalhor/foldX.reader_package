@@ -81,6 +81,7 @@ library(devtools)
 library(tidyverse)
 library(fs)
 library(stringr)
+library(dplyr)
 
 ## important functions to save image
 # function to save plots
