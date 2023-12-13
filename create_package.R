@@ -14,7 +14,7 @@ if (!requireNamespace("roxygen2", quietly = TRUE)) {
 library(devtools)
 library(roxygen2)
 
-use_git()
+#use_git()
 
 # add a function
 use_r("read_multiple_fxout_function.R")

@@ -76,6 +76,11 @@ if (!requireNamespace("stringr", quietly = TRUE)) {
   install.packages("stringr")
 }
 
+# Install dplyr if not installed
+if (!requireNamespace("dplyr", quietly = TRUE)) {
+  install.packages("dplyr")
+}
+
 # Load the installed packages
 library(devtools)
 library(tidyverse)
