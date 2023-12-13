@@ -1,5 +1,5 @@
 # create_package("path")
-
+ 
 # Install devtools if not installed
 if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
