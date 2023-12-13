@@ -24,8 +24,8 @@ use_r("read_fxout_function.R")
 load_all()
 
 # test if functions are loaded
-path <- "/Users/kami/my_GitHub_Repository/my_R_packages/foldX.reader/foldx_output_example"
-multiple_output_dataframe = read_multiple_fxout(path, visualize = TRUE)
+#path <- "/Users/kami/my_GitHub_Repository/my_R_packages/foldX.reader/foldx_output_example"
+#multiple_output_dataframe = read_multiple_fxout(path, visualize = TRUE)
 
 check()
 
@@ -42,9 +42,9 @@ load_all()
 
 # usage
 # whenever we want to use or package use the command below
-devtools::install_git("path_to_package_directory")
+#devtools::install_git("path_to_package_directory")
 #devtools::install_git("/Users/kami/my_GitHub_Repository/my_R_packages/foldX.reader/")
-# didn't worked
+
 
 
 # making vinnet video 8_nov 47:00
